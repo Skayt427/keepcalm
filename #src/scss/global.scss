@@ -1,0 +1,63 @@
+$font-manrope: 'Manrope', sans-serif;
+$font-orchidea: 'OrchideaPro', sans-serif;
+$font-roboto: 'Roboto', sans-serif;
+$color-main: #141414;
+$color-white: #fff;
+
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  outline: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex: 0 0 auto;
+}
+
+body {
+  font-family: $font-manrope;
+  font-weight: 500;
+  font-size: 18px;
+  color: $color-main;
+}
+
+.container {
+  max-width: 1437px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.main {
+  max-width: 1920px;
+  margin: 0 auto;
+}
